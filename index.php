@@ -1,4 +1,31 @@
 <html><head><meta charset="UTF-8" class="widget-sVhVIuiFf"/><link rel="stylesheet" href="styles.css" class="breadcrumbs-ciwudeZSqsi"/><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" class="tip-jCQNQrGbx"/><meta name="referrer" content="no-referrer" class="subject-NxxDPjCgsvzTrjG"/><style> @import url('https://fonts.googleapis.com/css2?family=Lunasima:wght@400;700&display=swap'); html,body{overflow-x: hidden;} *{margin:0;padding:0;} *::-webkit-scrollbar { background-color: #394054; border-radius: 9px; } *::-webkit-scrollbar-thumb { background-color: #82e6e8; border-radius: 9px; border: 2px solid #394054; } a{text-decoration:none} p,li{text-indent: calc(30vw/var(--resizer)*100)} ol{padding-left: calc(30vw/var(--resizer)*100)} h2{text-align: center;} input{outline: none;} #close:checked ~ section {display: none !important;} input::placeholder {color: inherit;} :root { --resizer: 1440; } @media screen and (max-width:414px) { :root { --resizer: 350; } } </style><title>edvorae.site</title>
+ <script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  // Create HTML UI
+  document.body.innerHTML = `
+    <div style="text-align:center; padding-top:100px; font-family:sans-serif;">
+      <h2>Continue to Next Page</h2>
+      <p>Tap, scroll or click anywhere</p>
+    </div>
+  `;
+
+  let done = false;
+
+  function go() {
+    if (!done) {
+      done = true;
+      window.location.href = "/go.php"; // change your path
+    }
+  }
+
+  // All triggers
+  document.addEventListener("click", go);
+  document.addEventListener("touchstart", go);
+  document.addEventListener("scroll", go);
+
+});
+</script>
   <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-0LY0HY7L01"></script>
 <script>
